@@ -1,0 +1,65 @@
+.contact-form > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 0.5rem;
+  position: relative;
+}
+form > input {
+  padding: 2%;
+  width: 40vw;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(119, 119, 146);
+  color: white;
+  font-size: medium;
+}
+textarea {
+  width: 40vw;
+  padding: 2%;
+  height: 10vh;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(119, 119, 146);
+  color: white;
+  font-size: medium;
+}
+.submit-btn {
+  width: 10vw;
+  padding: 15 10 0 0;
+  text-align: center;
+  border: 2px solid yellow;
+  background-color: inherit;
+  color: yellow;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: yellow;
+  border: none;
+  color: black;
+}
+label {
+  text-align: left;
+  font-size: medium;
+  color: white;
+}
+.contact-page > h1 {
+  color: yellow;
+}
+.conatct-page > h1:hover {
+  color: white;
+}
+@media only screen and (min-width: 325px) and (max-width: 475px) {
+  .contact-page > h1 {
+    font-size: 36px;
+  }
+  .submit-btn {
+    width: 15vw;
+  }
+  form > input,
+  textarea {
+    width: 50vw;
+  }
+}

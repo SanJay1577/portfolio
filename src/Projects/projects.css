@@ -1,0 +1,97 @@
+.project-page {
+  display: grid;
+  /* grid-template-columns:  repeat(auto-fit, minmax(250px, 4fr)); */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-left: 0 auto;
+}
+.project-content:hover {
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(243, 240, 245, 0.904);
+}
+
+.project-content > img {
+  width: 95%;
+  height: 200px;
+  object-fit: cover;
+  padding: 8px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 60%;
+  transition: box-shadow 0.2s;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+.btn-group > a {
+  font-size: small;
+  padding: 2%;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-repo {
+  background-color: rgb(37, 35, 35);
+  color: white;
+}
+.btn-group > button:hover {
+  opacity: 0.7;
+}
+.btn-site {
+  width: 64px;
+  color: white;
+  background: linear-gradient(90deg, #fed54a, #ff9347);
+}
+
+@media only screen and (min-width: 325px) and (max-width: 475px) {
+  .project-content > h1 {
+    font-size: 12px;
+  }
+
+  .project-content {
+    padding: 6px;
+    width: 95%;
+  }
+
+  .project-content > img {
+    padding: 4px;
+    height: 100px;
+  }
+  .project-page {
+    gap: 15px;
+    width: 80vh;
+    place-items: center;
+    padding: 2px;
+    position: relative;
+    padding: 5px;
+  }
+  .btn-group > a {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+
+  .btn-site {
+    width: 50px;
+  }
+}

@@ -2,7 +2,7 @@
   position: absolute;
   top: 25%;
   z-index: 1;
-  color: rgb(168, 168, 41);
+  color: rgb(206, 248, 235);
 }
 .home-page > img {
   z-index: 0;
@@ -12,7 +12,7 @@
   transform: rotateZ(45deg);
 }
 .home-content {
-  font-family: "Water Brush", cursive;
+  font-family: 'Kanit', sans-serif;
   font-size: 64px;
 }
 .home-content:hover {

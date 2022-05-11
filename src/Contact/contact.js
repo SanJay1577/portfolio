@@ -38,6 +38,10 @@ const Contact = () => {
           <input type="submit" value="Send" className="submit-btn" />
         </form>
       </div>
+      <br/>
+      <div className="footer-contact">
+        <p>&#169; Sanjay. All right reserved</p>
+        </div>
     </div>
   );
 };

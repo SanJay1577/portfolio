@@ -4,6 +4,7 @@
 }
 .project-head>h1{
   color:yellow;
+  font-size: 44px;
 }
 .project-head>h1:hover{
   color:white;
@@ -31,6 +32,8 @@ height:250px;
   border-radius: 5px;
   background-color: #fff;
   border: 1px solid #ccc;
+  box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transition:0.5s ease-in-out;
 }
 .project-content>h1{
  font-size: 100%;
@@ -38,8 +41,14 @@ height:250px;
 .project-content>img{
   object-fit: cover;
   width:80%;
-  height:40%;
+  height:40%; 
+ 
 }
+.project-content>img:hover{
+
+  opacity:0.7;
+}
+
 .btn-site {
   width: 64px;
   color: white;
@@ -70,6 +79,7 @@ height:250px;
   justify-content: space-around;
   align-items: center;
   padding: 5px;
+
 }
 
 a {
@@ -77,8 +87,9 @@ a {
 }
 .project-content:hover {
   cursor: pointer;
-  box-shadow: 0 0 11px rgba(243, 240, 245, 0.904);
+  transform: translateY(10px);
 }
+
 
 @media only screen and (min-width:490px) and (max-width:726px){
   .project-content{
@@ -91,15 +102,20 @@ a {
 
 }
 @media only screen and (min-width: 325px) and (max-width: 475px) {
-
+   
+  .project-head>h1{
+    color:yellow;
+    font-size: 32px;
+  }
   .project-page{
-    height:60vh;
+    height:70vh;
   }
   .project-content{
     width:40%;
     height:30%;
     padding:4px;
    }
+  
    .btn-group > a {
      font-size: 50%;
    }

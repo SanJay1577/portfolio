@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import resume from "../Images/Sanjay_R_Resume.PDF"
 import homeImage from "../Images/logo-s.png";
 import "animate.css";
 import gitImage from "../Images/gitIcon.png";
@@ -35,7 +34,10 @@ const Home = () => {
         </a>
         <br />
         <button className="btn btn-resume">
-          <a href={resume} download="Sanjay_Resume.pdf">
+          <a href={"https://drive.google.com/file/d/1V4KoDnwan_BkmJ06XaRNms4Wz0ZLVYMu/view?usp=sharing"}
+          target="_blank"
+          rel="noopener noreferrer" 
+          >
             Download resume
           </a>
         </button>

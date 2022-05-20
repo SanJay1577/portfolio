@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import project1 from "../Images/ecommerce.png";
 import project2 from "../Images/web-scrapper.png";
-import project3 from "../Images/color suggestion.png";
+import project3 from "../Images/chat-app.png";
 import project4 from "../Images/spider-movie-app.png";
 import project5 from "../Images/CRUD REACT.png"; 
 import project6 from "../Images/Dashboard react.png"; 
@@ -20,7 +20,7 @@ const Projects = () => {
          </div>
       <div className="project-page">
         <div className="project-content">
-          <h1>Ecommerce</h1>
+          <h1>Fit-Fiber Store</h1>
           <img src={project1} alt="project-name" />
           <div className="btn-group">
             <a
@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-content">
-          <h1>Web-Scrapping</h1>
+          <h1>Scrappy Price</h1>
           <img src={project2} alt="project-name" />
           <div className="btn-group">
             <a
@@ -82,11 +82,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-content">
-          <h1>Color sugesstion</h1>
+          <h1>Chatty</h1>
           <img src={project3} alt="project-name" />
           <div className="btn-group">
             <a
-              href={"https://github.com/SanJay1577/daily-color-frontend.git"}
+              href={"https://github.com/SanJay1577/chatty-frontend.git"}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-repo"
@@ -94,7 +94,7 @@ const Projects = () => {
               Front-End Source code
             </a>
             <a
-              href={"https://suggestcolor.netlify.app/"}
+              href={"https://chaty-chat.netlify.app/"}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-site"
@@ -102,7 +102,7 @@ const Projects = () => {
               Live Site
             </a>
             <a
-              href={"https://github.com/SanJay1577/daily-color-backend.git"}
+              href={"https://github.com/SanJay1577/chatty-backend.git"}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-repo"
@@ -113,7 +113,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-content">
-          <h1>Movie-Deatils</h1>
+          <h1>IMDB Spiders</h1>
           <img src={project4} alt="project-name" />
           <div className="btn-group">
             <a
@@ -143,7 +143,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-content">
-          <h1>React-CRUD</h1>
+          <h1>Officy</h1>
           <img src={project5} alt="project-name" />
           <div className="btn-group">
             <a
@@ -166,7 +166,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-content">
-          <h1>Dashboard</h1>
+          <h1>Demo-Dashy</h1>
           <img src={project6} alt="project-name" />
           <div className="btn-group">
             <a

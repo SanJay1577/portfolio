@@ -34,11 +34,11 @@ const Home = () => {
         </a>
         <br />
         <button className="btn btn-resume">
-          <a href={"https://drive.google.com/file/d/1V4KoDnwan_BkmJ06XaRNms4Wz0ZLVYMu/view?usp=sharing"}
+          <a href={"https://drive.google.com/file/d/1zVdHQqFG4eNXv596qmCJ0ucCl37F24zJ/view?usp=sharing"}
           target="_blank"
           rel="noopener noreferrer" 
           >
-            Download resume
+            Resume
           </a>
         </button>
       </div>
